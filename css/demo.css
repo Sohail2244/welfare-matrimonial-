@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+}
+a{
+    text-decoration: none !important;
+}
+
+/* navbar starts here */
+
+.navbar{
+    border: none !important;
+    border-radius: 0px !important;
+}
+nav.navbar-bg{
+    --bs-bg-opacity: 1;
+    background-color: maroon!important;
+
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 700;
+}
+.navbar-brand  span{
+    color: goldenrod;
+}
+.navbar .navbar-nav .nav-link{
+padding-left: 30px !important ;
+}
+.nav-item .active {
+    color: goldenrod !important;
+}
+.navbar-light .navbar-toggler:focus {
+    box-shadow: none;
+}
+.nav-item a:hover {
+    color:goldenrod !important;
+}
+.nav-item a::after {
+    content: '';
+    display: block;
+    width: 0%;
+    height: 2px;
+    background-color:goldenrod;
+    transition: 0.3s;
+}
+
+.nav-item a:hover::after {
+    width: 60% !important;
+    transition: 0.3s !important;
+}
+.nav-item .active::after {
+    content: '' !important;
+    display: block !important;
+    width: 60% !important;
+    height: 2px !important;
+    background-color:goldenrod !important;
+    transition: 0.3s !important;
+}
+.navbar .dropdown-menu {
+    background: #9b2c47;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.dropdown-item:focus, .dropdown-item:hover{
+background: goldenrod;
+}
+
+
+.dropdown .dropdown-menu a{
+    color: white !important;
+}
+
+
+
+
+/*------------------------ main section start ----------------------------*/
+
+.main-header-sec{
+background-image: url(../images/bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+
+}
+.main-section-heading{
+    padding: 100px 20px 100px 20px;
+
+}
+.main-section-heading h1{
+    font-size: 70px;
+    font-weight: 600;
+    color: maroon;
+}
+.header-section-button{
+   background-color: rgb(145, 14, 14);
+   color: white;
+   padding: 10px 53px 10px 44px;
+   font-size: 20px;
+    margin-top: 20px;
+
+}
+/* ----------------------------main section end ---------------------------*/
+
+
+
+
+
+
+/* media queries */
+
+@media only screen and (min-width: 992px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .nav-item a:hover::after {
+        width: 5% !important;
+        transition: 0.3s !important;
+    }
+
+    .navbar {
+        border-radius: 0px !important;
+    }
+    .nav-item .active::after {
+        width: 3% !important;
+       
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+            .navbar-brand{
+                font-size: 20px;
+            }
+              .nav-item a:hover::after {
+        width: 10% !important;
+        transition: 0.3s !important;
+    }
+
+    .nav-item .active::after {
+       
+        width: 10% !important;
+     
+    }
+}
+@media only screen and (max-width: 320px) {
+    .navbar-brand{
+                font-size: 16px;
+            }
+             .nav-item a:hover::after {
+        width: 20% !important;
+        transition: 0.3s !important;
+    }
+
+    .nav-item .active::after {
+      
+        width: 10% !important;
+      
+    }
+       
+}

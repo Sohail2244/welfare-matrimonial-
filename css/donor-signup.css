@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+/* main section */
+.main-login-section{
+    padding:100px  0px;
+}
+.main-login-section  .image-section-content{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 70px 0px;
+}
+.main-login-section  .image-section-content h2{
+font-size: 36px;
+font-weight: 800;
+}
+.main-login-section .login-image-section {
+    background: url(../images/bg-img.jpg) no-repeat;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    color: var(--white-color);
+    border-radius: 20px 0px 0px 20px;
+}
+
+.main-login-section .login-image-section .image-section-content button{
+    background-color: #9b2c47 !important;
+    padding: 12px 63px !important;
+    border: none;
+    font-size: 18px;
+    color: white;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    margin-top: 20px;
+   
+}
+
+.main-login-section .login-image-section .image-section-content button:hover
+{
+border: 1px solid white;
+background-color: transparent !important;
+color: white;
+}
+
+/************************************* login form section *****************************/
+.login-form-section{
+    background-color: #F7F7FF;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.login-form-section .form-section-heading{
+    background-color: #9b2c47;
+    border-radius: 0px 20px 0px 0px;
+    /* padding: 10px; */
+}
+.login-form-section .form-section-heading h2{
+    color: white;
+    font-size: 20px;
+    padding: 23px;
+}
+.login-form-section .login-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10% 15%;
+}
+.login-form-section .login-section h4{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 900;
+    color: #9b2c47;
+}
+.login-form-section .login-section p>a{
+    color: #9b2c47!important;
+    text-decoration: none;
+}
+.login-section button, .image-section button {
+    width: 100%;
+    margin-bottom: 30px;
+    background-color: #9b2c47 !important;
+    padding: 12px 0px !important;
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+}
+
+
+/* register */
+.register{
+    padding: 7% !important;
+}
+form a{
+    color: #9b2c47 !important;
+}
+.form-control:focus {
+    
+    border-color: #ced4da !important;
+    box-shadow:none !important;
+}
+.form-select:focus {
+    border-color:#ced4da  !important;
+    box-shadow: none !important;
+}
+.form-check-input:checked {
+    background-color: #9b2c47 !important;
+    border-color: #9b2c47 !important;
+}
+.form-check-input:focus {
+    border-color: #9b2c47;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(243 126 154 / 25%);
+}

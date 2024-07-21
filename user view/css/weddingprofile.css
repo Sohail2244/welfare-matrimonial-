@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+}
+a{
+    text-decoration: none !important;
+}
+
+
+/*------------------------ main section --------------------------------*/
+.main-weddingprofile-section{
+    padding:100px  0px;
+}
+
+.main-weddingprofile-section .weddingprofile-image-section {
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    color: var(--white-color);
+    border-radius: 20px 0px 0px 20px;
+}
+.main-weddingprofile-section .weddingprofile-image-section img {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    color: var(--white-color);
+    border-radius: 20px 0px 0px 20px;
+}
+
+
+
+
+
+
+/* ------------------------------------- weddingprofile form section---------------------------------- */
+.weddingprofile-form-section{
+    background-color: #F7F7FF;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.weddingprofile-form-section .form-section-heading{
+    background-color: #9b2c47;
+    border-radius: 0px 20px 0px 0px;
+    /* padding: 10px; */
+}
+.weddingprofile-form-section .form-section-heading h2{
+    color: white;
+    font-size: 20px;
+    padding: 23px;
+}
+.weddingprofile-form-section .weddingprofile-section{
+    display: flex;
+    flex-direction: column;
+    align-items: normal;
+    justify-content: center;
+    padding: 4% 10%;
+}
+
+.weddingprofile-section button, .image-section button {
+    width: 50%;
+    margin-bottom: 30px;
+    background-color: #9b2c47 !important;
+    padding: 12px 0px !important;
+    font-size: 18px;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    margin-left: inherit;
+
+}
+.form-control:focus {
+    border-color: #ced4da !important;
+    box-shadow:none !important;
+}

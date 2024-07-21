@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+}
+a{
+    text-decoration: none !important;
+}
+.rawara-services-sec{
+    padding: 70px 0px;
+
+}
+.rawara-services-sec h1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color:  #9b2c47;
+    font-weight: 700;
+    letter-spacing: 5px;
+
+}
+.rawara-services-sec p{
+    padding-top: 40px;
+    text-align: center;
+}
+.rawara-services-sec h3{
+    font-size: 30px;
+    font-weight: 700;
+    color:  #9b2c47;
+    letter-spacing: 6px;
+    padding: 30px 0px;
+}
+.services-card{
+    border: solid 1px #9b2c47;
+    box-shadow: 3px 3px 6px #713141;
+    /* padding: 20px;  */
+    border-radius: 10px;
+    text-align: center;
+
+}
+.services-card .crd-inner-body{
+    padding: 22px;
+    
+}
+.services-card .crd-inner-body .crd-img{
+   max-width: 100%;
+   height: auto;
+}
+.services-card .crd-inner-body .crd-img img{
+    max-width: 100%;
+    height: auto;
+}
+.services-card .crd-inner-body .card-desc h2{
+    font-size: 26px;
+    padding-top: 27px;
+    font-weight: 700;
+    color:  #9b2c47 ;
+}
+.services-card .crd-inner-body .card-desc p{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 27px;
+}
+.services-card .crd-inner-body .card-btn button{
+    width: 46%;
+    background-color: #9b2c47 !important;
+    padding: 12px 0px !important;
+    font-size: 15px;
+    color: white;
+    border-radius: 4px;
+    border: none;  
+}
+.services-card .crd-inner-body .card-btn button:hover{
+    border: 1px solid #9b2c47 ;
+    background-color: transparent !important;
+    color: #9b2c47 ;
+    }
+    
+.services-card .crd-inner-body .card-btn{
+    padding: 28px 0px;
+}
+
+ul>li::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+    color : #9b2c47  !important;
+}
+li{
+    line-height: 40px;
+}
+.contact{
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 0px;
+}

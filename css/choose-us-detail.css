@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter';
+    font-style: normal;
+}
+a{
+    text-decoration: none !important;
+}
+.learn-more-section .learn-more-content {
+    text-align: center;
+    margin: 30px 0px;
+}
+.learn-more-section .learn-more-content .learn-more-haeding-section h4{
+font-size: 30px;
+font-weight: 800;
+color: #9b2c47;
+font-size: 40px;
+text-transform: uppercase;
+margin-bottom: 20px;
+}
+.learn-more-section .learn-more-content .learn-more-haeding-section p{
+    color: #666666;
+}
+.learn-more-icon-section{
+    padding-top: 70px 0px;
+}
+.learn-more-icon-section .learn-more-icon-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.learn-more-icon-section .learn-more-icon-heading h4{
+    padding-bottom: 40px;
+    font-size: 35px;
+    font-weight: 700;
+    color: #9b2c47;
+}
+.learn-more-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.learn-more-detail .learn-more-icon{
+background: #9b2c47 ;
+height: 140px;
+width: 140px;
+background-color: #9b2c47;
+border-radius: 50%;
+}
+.learn-more-detail .learn-more-icon i{
+    font-size: 60px;
+    color: white;
+    padding: 42px;
+    position: relative;
+
+}
+.learn-more-detail h6{
+    padding-top: 30px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.learn-more-detail p{
+    color:#666666;
+  
+}
+
+.register-verify-section h5{
+color: #9b2c47;
+font-weight: 600;
+font-size: 20px;
+}
+.register-verify-section p{
+    color: #666666;
+}
